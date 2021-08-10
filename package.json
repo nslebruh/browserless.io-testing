@@ -1,0 +1,23 @@
+{
+  "name": "browserless.io-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nslebruh/browserless.io-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nslebruh/browserless.io-testing/issues"
+  },
+  "homepage": "https://github.com/nslebruh/browserless.io-testing#readme",
+  "dependencies": {
+    "puppeteer": "^10.2.0"
+  }
+}
