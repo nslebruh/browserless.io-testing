@@ -41,28 +41,6 @@ async function main(username, password) {
           }
           return (tasks);
         });
-        
-    //await page.evaluate(async () => {
-    //    function sleep(ms) {
-    //        return new Promise(resolve => setTimeout(resolve, ms));
-    //    }
-    //    tasks = [];
-    //    await page.click("#combobox-1072-inputEl");
-    //    let dropdown = document.querySelector('#ext-gen1729').childNodes[6];
-    //    await page.click(dropdown);
-//
-    //    table = document.querySelector("#gridview-1048-body");
-    //    for(var i = 0; i < table.length; i++) {
-    //        row = table[i];
-    //    };
-    //})
-    //await page.click("#ext-gen1729");
-    //const box = page.$(".x-list-plain")[0]; 
-    //await sleep(1000);
-    //await page.click(".x-list-plain")
-    //let table = document.getElementById("gridview-1048-body");
-    //tasks = [];
-    //for(var i = 0; i < table.length; i++) {};
     await browser.close();
     console.log(JSON.stringify(tasks));
     //fs.writeFileSync("tasks.json", JSON.stringify(tasks));
